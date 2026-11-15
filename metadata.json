@@ -1,0 +1,6 @@
+{
+  "name": "Dario Assistant",
+  "description": "Assistente pessoal inteligente — Fase 1: Fundação visual, navegação, arquitetura MVVM e camada de comunicação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

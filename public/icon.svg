@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1116" />
+      <stop offset="100%" stop-color="#07090B" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect x="28" y="28" width="456" height="456" rx="92" fill="none" stroke="#14B8A6" stroke-width="6" stroke-opacity="0.32" />
+  <!-- Outer command ring -->
+  <circle cx="256" cy="256" r="148" fill="none" stroke="url(#accent)" stroke-width="18" />
+  <!-- Four agent nodes (Gêmeos, Azusa, Croma, B2B) -->
+  <circle cx="256" cy="108" r="16" fill="#2DD4BF" />
+  <circle cx="404" cy="256" r="14" fill="#14B8A6" />
+  <circle cx="256" cy="404" r="14" fill="#14B8A6" />
+  <circle cx="108" cy="256" r="14" fill="#14B8A6" />
+  <!-- Central D monogram -->
+  <path d="M196 176h64c44.183 0 80 35.817 80 80s-35.817 80-80 80h-64V176zm36 34v92h28c25.405 0 46-20.595 46-46s-20.595-46-46-46h-28z" fill="#F4F4F5" />
+</svg>
